@@ -1,8 +1,6 @@
+---
 platform: linux
-
-  
-inputs:
-  - name: resource-web-app
-  
+image: docker:///busybox
 run:
-  path: resource-web-app/testing.sh
+  path: echo
+  args: [hello world]
