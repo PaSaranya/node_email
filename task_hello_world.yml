@@ -1,0 +1,8 @@
+platform: linux
+
+  
+inputs:
+  - name: resource-web-app
+  
+run:
+  path: resource-web-app/testing.sh
