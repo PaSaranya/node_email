@@ -1,11 +1,8 @@
 platform: linux
-
-image_resource:
-  type: docker-image
-  source: {repository: busybox}
   
 inputs:
   - name: resource-web-app
   
 run:
-  path: resource-web-app/testing.sh
+  path: sh
+  args: [resource-web-app/testing.sh]
