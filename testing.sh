@@ -1,9 +1,9 @@
 #!/bin/bash
 x=2
-y=3
+y=2
 if [ $x -eq $y ];
 then
-echo success
+echo "success" ; exit 1; 
 else
-echo failed
+echo " failed" ; exit 1; 
 fi
