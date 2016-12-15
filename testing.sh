@@ -4,7 +4,7 @@ y=3
 if [ $x -eq $y ];
 then
 echo "Running a sample shellscript";
-c= java -jar 'sample-0.0.1-SNAPSHOT.jar'
+c= 'java -jar sample-0.0.1-SNAPSHOT.jar'
 else
 echo " failed" ; exit 1; 
 fi
